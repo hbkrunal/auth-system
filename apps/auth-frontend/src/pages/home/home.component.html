@@ -1,0 +1,22 @@
+<h1 style="text-align: center">Welcome to My home 😀</h1>
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>email</th>
+        <th>Fname</th>
+        <th>Lname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ authUser?._id }}</td>
+        <td>{{ authUser?.email }}</td>
+        <td>{{ authUser?.firstName }}</td>
+        <td>{{ authUser?.lastName }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

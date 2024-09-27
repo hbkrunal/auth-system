@@ -1,0 +1,68 @@
+/* Assuming BEM or similar naming convention */
+/* styles.scss or component-specific stylesheet */
+
+.form-wrapper {
+  margin-top: 2.5rem;
+  /* Equivalent to Tailwind's mt-10 */
+  width: 83.333333%;
+  /* Equivalent to Tailwind's w-10/12 */
+
+  @media (min-width: 768px) {
+    /* Tailwind's md breakpoint */
+    width: 50%;
+    /* Equivalent to Tailwind's md:w-1/2 */
+  }
+
+  form {
+    background-color: white;
+    display: grid;
+    gap: 0.5rem;
+    /* Equivalent to Tailwind's gap-2 */
+  }
+}
+.aa--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* or row, depending on your layout */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.aa--flex {
+  display: flex;
+}
+
+.aa--justify-center {
+  justify-content: center;
+}
+
+.aa--text-primary {
+  color: #007bff;
+  /* Example primary color */
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.alert--info {
+  background-color: #e7f0ff;
+  color: #3178c6;
+}
+
+.alert--error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.name-fields {
+  display: flex;
+  gap: 16px; // Adjust the gap as needed
+}
+
+.mat-form-field {
+  flex: 1;
+}
